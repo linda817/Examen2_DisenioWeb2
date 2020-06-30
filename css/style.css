@@ -87,16 +87,16 @@ h4 {
     max-width: 100%;
 }
 
-.card-food .card-header {
+.card-flor .card-header {
     padding: 0px
 }
 
-.card-food .card-header img {
+.card-flor .card-header img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.card-food .card-content {
+.card-flor .card-content {
     background-color: var(--azul);
     color: #fff;
     padding: 10px;
@@ -105,7 +105,7 @@ h4 {
     font-size: 17px;
 }
 
-.card-food .card-content article:last-child {
+.card-flor .card-content article:last-child {
     justify-content: flex-end;
     display: flex;
     font-size: 13px;
@@ -134,7 +134,7 @@ h4 {
 .bg-azul {
     background-color: var(--azul);
     color: #fff;
-    padding: 45px 0;
+    padding: 20px 0;
 }
 
 .bg-azul block {
@@ -156,13 +156,14 @@ h4 {
     font-weight: 500;
 }
 
-.bg-carnes {
-    background-image: url("../img/bg-meat.jpg");
+.bg-flores {
+    background-image: url("../img/floristeria-1024x718.jpg");
     background-size: cover;
     background-position: top center;
+    margin-top: -30px;
 }
 
-.bg-carnes h2 {
+.bg-flores h2 {
     color: #fff;
     font-size: 26px;
     font-weight: 700;
@@ -174,7 +175,20 @@ h4 {
     width: 80px;
 }
 
-#login .page,
-#login .page-content {
-    background-color: #a8a8a8 !important;
+.producto-floral h2 {
+    padding: 20px 0px;
+}
+
+.producto-floral h3 {
+    padding: 10px 0px;
+    font-weight: lighter;
+}
+
+.producto-floral h4 {
+    padding: 10px 0px;
+}
+
+.producto-boton a {
+    margin-top: 20px;
+    background-color: var(--azul);
 }

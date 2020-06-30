@@ -20,9 +20,9 @@ var app = new Framework7({
             name: 'home',
         },
         {
-            path: '/about/',
-            url: 'about.html',
-            name: 'about',
+            path: '/producto/',
+            url: 'producto.html',
+            name: 'producto',
         },
         {
             path: '/perfil/',
@@ -30,9 +30,9 @@ var app = new Framework7({
             name: 'perfil',
         },
         {
-            path: '/carnes/',
-            url: 'carnes.html',
-            name: 'carnes',
+            path: '/amor/',
+            url: 'amor.html',
+            name: 'amor',
         }
 
     ]
