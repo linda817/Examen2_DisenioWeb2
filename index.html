@@ -12,7 +12,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="color-theme-blue">
+<body class="color-theme-pink">
 
 
 
@@ -42,17 +42,18 @@
                     <ul class="list-menu">
 
                         <li>
-                            <a href="/perfil/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">account_circle</span> </div>
-                                <div class="item-inner"> Perfil </div>
+                            <a href="/about/" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">home</span> </div>
+
+                                <div class="item-inner"> Inicio </div>
                             </a>
                         </li>
 
-                        <li>
-                            <a href="/about/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">search</span> </div>
 
-                                <div class="item-inner"> Buscar </div>
+                        <li>
+                            <a href="/perfil/" class="item-link item-content panel-close">
+                                <div class="item-media"> <span class="material-icons">account_circle</span> </div>
+                                <div class="item-inner"> Perfil </div>
                             </a>
                         </li>
 
@@ -68,41 +69,17 @@
                         <li>
                             <a href="/about/" class="item-link item-content panel-close">
                                 <div class="item-media"> <span class="material-icons">local_offer</span> </div>
-                                <div class="item-inner"> Descuentos </div>
+                                <div class="item-inner"> Promociones </div>
                             </a>
                         </li>
 
                         <li>
                             <a href="/about/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">shopping_basket</span> </div>
-                                <div class="item-inner"> Ordenes </div>
+                                <div class="item-media"> <span class="material-icons">shopping_bag</span> </div>
+                                <div class="item-inner"> Mis Ordenes </div>
                             </a>
                         </li>
 
-                        <li>
-                            <a href="/about/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">payment</span> </div>
-
-                                <div class="item-inner"> Pagos </div>
-                            </a>
-                        </li>
-
-
-                        <li>
-                            <a href="/about/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">settings</span> </div>
-
-                                <div class="item-inner"> Configuracion </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="/about/" class="item-link item-content panel-close">
-                                <div class="item-media"> <span class="material-icons">live_help</span> </div>
-
-                                <div class="item-inner"> Soporte </div>
-                            </a>
-                        </li>
 
                         <li>
                             <a href="/about/" class="item-link item-content panel-close">
@@ -130,7 +107,7 @@
                         <div class="left">
                             <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
                         </div>
-                        <div class="title">Food Delivery</div>
+                        <div class="title">Floristería</div>
                     </div>
                 </nav>
 
@@ -138,12 +115,11 @@
                 <!-- Scrollable page content -->
                 <article class="page-content">
                     <div class="block saludo">
-                        <h2>Hola, <span id="nombre">María</span></h2>
-                        <h3>Que te gustaria comer hoy?</h3>
-
+                        <h2>Hola, <span id="nombre">Linda</span></h2>
+                        <h3>¡Una flor florece para su propia alegría!</h3>
                     </div>
 
-                    <h2 class="block-title">Comidas Favoritas</h2>
+                    <h2 class="block-title"></h2>
                     <div class="swiper-container swiper-init">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -284,65 +260,6 @@
 
 
                 </article>
-            </section>
-
-            <div class="toolbar tabbar toolbar-bottom">
-                <div class="toolbar-inner">
-                    <a href="/home/" class="link"><span class="material-icons">home</span></a>
-                    <a href="#" class="link"><span class="material-icons">local_mall</span></a>
-                    <a href="#" class="link"><span class="material-icons">shopping_basket</span></a>
-                    <a href="/perfil/" class="link"><span class="material-icons">person</span></a>
-                </div>
-            </div>
-
-            <section id="login">
-                <div class="login-screen modal-in">
-                    <!-- Default view-page layout -->
-                    <div class="view">
-                        <div class="page login-screen-page">
-                            <!-- page-content has additional login-screen content -->
-                            <div class="page-content login-screen-content">
-                                <div class="login-screen-title">Food Delivery</div>
-                                <!-- Login form -->
-                                <form>
-                                    <div class="list">
-                                        <ul>
-                                            <li class="item-content item-input">
-                                                <div class="item-inner">
-                                                    <div class="item-title item-label">Usuario</div>
-                                                    <div class="item-input-wrap">
-                                                        <input type="text" name="username" id="username" placeholder="Username">
-                                                        <span class="input-clear-button"></span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="item-content item-input">
-                                                <div class="item-inner">
-                                                    <div class="item-title item-label">Contraseña</div>
-                                                    <div class="item-input-wrap">
-                                                        <input type="password" name="password" id="password" placeholder="Password">
-                                                        <span class="input-clear-button"></span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="list block">
-                                        <ul>
-                                            <li>
-                                                <a href="#" id="btnLogin" class="button button-fill button-round">Ingresar</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="button login-screen-close">INGRESAR COMO INVITADO</a>
-                                            </li>
-                                        </ul>
-                                        <div class="block-footer">¿No tienes una cuenta? <a href="#">Crear Cuenta</a></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
 
         </div>

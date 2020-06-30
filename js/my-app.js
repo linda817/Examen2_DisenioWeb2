@@ -46,18 +46,3 @@ $$('#btn-alerta').on('click', function() {
     app.dialog.alert('Hola mundo');
 
 });
-
-$$('#btnLogin').on('click', function(e) {
-    e.preventDefault();
-
-    var usuario = $$('#username').val();
-    var password = $$('#password').val();
-
-    if (usuario == 'admin' && password == "admin") {
-        $$('#nombre').html('Linda Donaire');
-        app.loginScreen.close('.login-screen');
-    } else {
-        app.dialog.alert('Datos ingresados no son válidos');
-    }
-
-});
